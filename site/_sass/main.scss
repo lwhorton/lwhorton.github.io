@@ -22,13 +22,21 @@ nav {
     }
 }
 
-#root {
-    margin: 3rem auto 2rem auto;
-    max-width: 540px;
+button {
+    border: 1px solid;
+    background: lighten(black, 50%);
+    color: white;
+    padding: .25rem 1rem;
 }
 
 h1, h2 {
     border-bottom: 2px solid;
+}
+
+footer {
+    border-top: 2px solid lighten(gray, 30%);
+    margin-top: 2rem;
+    padding: 2rem 0;
 }
 
 blockquote {
@@ -44,12 +52,19 @@ blockquote {
     }
 }
 
+#root {
+    margin: 3rem auto 2rem auto;
+    max-width: 540px;
+}
+
 .date {
     font-family: Monospace;
     margin-right: 1rem;
 }
 
 ol,li {
+    padding-bottom: .5rem;
+
     &.list-style-none {
         list-style-type: none;
     }
