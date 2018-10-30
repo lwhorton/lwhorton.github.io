@@ -1,0 +1,51 @@
+---
+---
+.dot-access {
+    color: red;
+}
+
+.shorthand-access {
+    color: orange;
+}
+
+.dot-invocation {
+    color: purple;
+}
+
+.shorthand-invocation {
+    color: green;
+}
+
+.double-dot-access {
+    color: blue;
+}
+
+.pattern-match > div > pre > code {
+    // dot access
+    & > span:nth-child(n+13):nth-child(-n+19) {
+        color: red;
+    }
+
+    // shorthand access
+    & > span:nth-child(n+10):nth-child(-n+12),
+    & > span:nth-child(n+20):nth-child(-n+24) {
+        color: orange;
+    }
+
+    // dot invocation
+    & > span:nth-child(n+7):nth-child(-n+9),
+    & > span:nth-child(n+25):nth-child(-n+29) {
+        color: purple; }
+
+    // short-hand invocation
+    & > span:nth-child(n+4):nth-child(-n+6),
+    & > span:nth-child(n+30):nth-child(-n+32) {
+        color: green;
+    }
+
+    // double-dot access
+    & > span:nth-child(n+0):nth-child(-n+3),
+    & > span:nth-child(n+33):nth-child(-n+34) {
+        color: blue;
+    }
+}

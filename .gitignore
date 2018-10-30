@@ -1,0 +1,6 @@
+.sass-cache/
+_site/
+public/
+*.log
+.shadow-cljs/
+node_modules/

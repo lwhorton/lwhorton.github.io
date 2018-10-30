@@ -1,0 +1,56 @@
+html {
+    background-color: #EBEBEB;
+    font-family: Georgia;
+    width: 100%;
+}
+
+body {
+    margin: 0 .5rem;
+}
+
+nav {
+    margin: 0 0 2rem 0;
+
+    & > a {
+        color: #6E6E6E;
+        font-size: 1.25rem;
+        text-decoration: none;
+
+        &:hover {
+            color: black;
+        }
+    }
+}
+
+#root {
+    margin: 3rem auto 2rem auto;
+    max-width: 540px;
+}
+
+h1, h2 {
+    border-bottom: 2px solid;
+}
+
+blockquote {
+    border: 2px solid;
+    margin-inline-start: 1rem;
+    margin-inline-end: 1rem;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding: 1rem;
+
+    p {
+        margin: 0;
+    }
+}
+
+.date {
+    font-family: Monospace;
+    margin-right: 1rem;
+}
+
+ol,li {
+    &.list-style-none {
+        list-style-type: none;
+    }
+}
