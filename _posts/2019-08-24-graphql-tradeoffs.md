@@ -30,40 +30,42 @@ transferred over the wire.
 
 ### Number of requests
 The number of HTTP requests _can_ be dramatically reduced. Retrieving resources
-and their relationships (graphs!) is easy, and enables clients to (in general)
-make far fewer round trips to the server (than traditional HTTP APIs).
+and their relationships (graphs!) is easy, and enables clients to, in general,
+make far fewer round trips to the server than traditional HTTP APIs.
 
 ## What you give up
 
 ### Specification
-Fundamental concepts to any web-based application such as safe/unsafe and
-idempotent methods, authentication schemes, response codes, header controls, and
-error semantics are well-defined and have been carefully considered for over 20
-years. While there are definitely warts in HTTP, there is a mountain of value in
-a tightly defined specification that _others_ have hardened. Currently the spec
-for GraphQL doesn't cover any of these topics, which places the burden on each
-application. It takes an enormous amount of time and effort to develop protocols
-or semantics, and that time is probably better spent solving the actual business
-problem at hand.
+There are fundamental requirements to any web-based application such as
+safe/unsafe/idempotent methods, authentication schemes, response codes, header
+controls, and error semantics. While there are definitely warts in
+[HTTP](https://tools.ietf.org/html/rfc2616), there is enormous value in using a
+specification which has been carefully designed and hardened (by someone else)
+for over 20 years. Currently the spec for GraphQL doesn't cover any of the
+aforementioned topics, which places the design burden on each individual
+application. It is extremely difficult and costly to develop resilient
+specifications, and that time is probably better spent solving the actual
+business problem at hand.
 
 ### Caching
-Caching is a fundamental pillar of the web and deserves a separate mention.
-GraphQL pushes caching out of the network layer (HTTP) and into the application
-layer. We lose the long lever of intermediaries (CDNs, reverse proxies,
-gateways, etc.) and features like Etag, Is-Modified-Since, Last-Modified, or
-Cache-Control. Each application has to develop a custom caching strategy, which
-is no small feat. You then have to find intermediaries that speak this new
-caching language, or write (and maintain, and deploy) some yourself.
+While technically part of the HTTP specification (above), caching is a
+fundamental pillar of the web and deserves a separate mention. GraphQL pushes
+caching out of the network layer and into the application layer. We lose the
+long lever of intermediaries (CDNs, reverse proxies, gateways, etc.) and
+features like Etag, Is-Modified-Since, Last-Modified, or Cache-Control. Each
+application has to develop a custom caching strategy, which is no small feat.
+You then have to find intermediaries that speak this new caching language, or
+write (and maintain, and deploy) some yourself.
 
 ### Interfaces
 A query language over a datastore is not an interface. The whole point of an API
 is to empower clients to achieve outcomes by having a sensible conversation
-about a particular domain. GraphQL is akin to RPC-over-HTTP, with an unbounded
-set of ad-hoc operations acting on domain entities. Simply allowing clients to
-modify payloads without making changes to the server is not a meaningful
-decoupling mechanism. When entities evolve, or business processes change, how
-does the coupling of N operations to Y entities hold up over time? Are those
-conversations still sensible?
+about a particular domain. GraphQL is akin to RPC-over-HTTP, with an [unbounded
+set of ad-hoc operations](https://vimeo.com/17668985) acting on domain entities.
+Simply allowing clients to modify payloads without making changes to the server
+is not a meaningful decoupling mechanism. When entities evolve, or business
+processes change, how does the coupling of N operations to Y entities hold up
+over time? Are those conversations still sensible?
 
 ### Optimizations
 By exposing any node or edge to a client, you have unleashed
