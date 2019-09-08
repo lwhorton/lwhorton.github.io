@@ -1,6 +1,6 @@
 ---
 layout: post
-title: React, please let me drive
+title: React, Please Let Me Drive
 ---
 
 # React, please let me drive

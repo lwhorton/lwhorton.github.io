@@ -52,6 +52,11 @@ blockquote {
     }
 }
 
+footer a {
+    display: block;
+    padding: .5rem;
+}
+
 #root {
     margin: 3rem auto 2rem auto;
     max-width: 540px;
@@ -69,3 +74,4 @@ ol,li {
         list-style-type: none;
     }
 }
+
