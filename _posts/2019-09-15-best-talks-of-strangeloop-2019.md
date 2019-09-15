@@ -17,6 +17,19 @@ collection, what follows is a curated list of my favorites that I hope you might
 enjoy. In case you couldn't tell from the following, my
 biases are towards Clojure, functional programming, and language design.
 
+## [Imogen Heap (not yet available)]()
+Imogen Heap gave a resounding keynote. Her team spent the last 10 years working
+on interactive "music gloves" that enable a performer to engage a synthesizer by
+waving hands and fingers in the air. The glove's sensors provide an incredibly
+rich interface for looping and sampling, and the three dimensional space
+provides the canvas on which to perform. It reminds me loosely of a
+[theremin](https://en.wikipedia.org/wiki/Theremin), but with infinitely more
+possibilities. The performance is mesmerizing. This wizard on stage is grabbing
+sound waves out of the air– like they're tangible strings of yarn, then
+contorting them into new shapes to produce a beautiful song. The blend of
+entertainment, activism, and education was beautifully done, and I saw quite a
+few wet eyes in the audience during the ovation.
+
 ## [Alda's dynamic relationship with Clojure](https://www.youtube.com/watch?v=6hUihVWdgW0)
 Dave Yarwood takes us through his journey developing
 [alda](https://github.com/alda-lang), a music programming language and toolset.
