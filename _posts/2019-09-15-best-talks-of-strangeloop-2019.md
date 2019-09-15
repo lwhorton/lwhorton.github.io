@@ -3,6 +3,8 @@ layout: post
 title: The Best Talks of Strangeloop 2019
 ---
 
+# The Best Talks of Strangeloop 2019
+
 Almost every talk at Strangeloop sounds intriguing, so how do you pick where to
 spend your time? The cliché from Strangeloop veterans is something along the
 lines of: pick the abstracts that you don't understand, order them based on your
@@ -14,10 +16,13 @@ the veterans.
 
 In case you don't have the time or inclination to get through this year's
 collection, what follows is a curated list of my favorites that I hope you might
-enjoy. In case you couldn't tell from the following, my
-biases are towards Clojure, functional programming, and language design.
+enjoy. In case you couldn't tell from the following, my biases are towards
+Clojure, functional programming, and language design.
 
-## [Imogen Heap (not yet available)]()
+## Imogen Heap
+
+[video (not yet available)]
+
 Imogen Heap gave a resounding keynote. Her team spent the last 10 years working
 on interactive "music gloves" that enable a performer to engage a synthesizer by
 waving hands and fingers in the air. The glove's sensors provide an incredibly
@@ -30,7 +35,10 @@ contorting them into new shapes to produce a beautiful song. The blend of
 entertainment, activism, and education was beautifully done, and I saw quite a
 few wet eyes in the audience during the ovation.
 
-## [Alda's dynamic relationship with Clojure](https://www.youtube.com/watch?v=6hUihVWdgW0)
+## Alda's Dynamic Relationship with Clojure
+
+[video](https://www.youtube.com/watch?v=6hUihVWdgW0)
+
 Dave Yarwood takes us through his journey developing
 [alda](https://github.com/alda-lang), a music programming language and toolset.
 The market leading GUI-based musical composition software such as Sibelius and
@@ -48,7 +56,10 @@ clojure, and I had to find a way to do that". I'm a little disappointed that he
 essentially had to write in a language he didn't want in order to write in the
 language he did want.
 
-## [Meander: Declarative Explorations at the Limits of FP](https://www.youtube.com/watch?v=9fhnJpCgtUw)
+## Meander: Declarative Explorations at the Limits of FP
+
+[video](https://www.youtube.com/watch?v=9fhnJpCgtUw)
+
 Jimmy Miller doesn't think we (functional programmers) have yet arrived at the
 promised land. The base abstractions of map, filter, and reduce are undeniable
 improvements over iterative loops, but they don't significantly simplify our
@@ -64,7 +75,10 @@ Shape -> Output Shape` in the background, and you only have to worry about
 describing the data structures. It's "data is code is data" taken to another
 extreme. I can't wait to try it out, as this is a problem I encounter regularly.
 
-## [Performance Matters](https://www.youtube.com/watch?v=r-TLSBdHe1A)
+## Performance Matters
+
+[video](https://www.youtube.com/watch?v=r-TLSBdHe1A)
+
 Emery Berger from the CS department at UMass Amherst shared some fascinating
 work on program optimization at the system level. He points out how it is
 essentially impossible to profile code in a straightforward way given todays
@@ -76,7 +90,10 @@ presentation is example driven, and introduces his research teams' tools
 that without tools like these you are never going to squeeze more performance
 out of a system.
 
-## [Uptime 15,364 Days](https://www.youtube.com/watch?v=H62hZJVqs2o)
+## Uptime 15,364 Days
+
+[video](https://www.youtube.com/watch?v=H62hZJVqs2o)
+
 Aaron Cummings covers in extreme detail the missions of Voyager 1 and 2 (and 3,
 which I had no idea existed). The unparalleled demonstration of skill and effort
 of the mission teams really shines through his talk. Imagine designing a system
