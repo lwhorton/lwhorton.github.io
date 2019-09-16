@@ -11,7 +11,7 @@ lines of: pick the abstracts that you don't understand, order them based on your
 personal interest, then go to those talks which interest you the least. This was
 my first year attending in person, but I have watched about half all the
 material available in the online archive (that dates back to 2014), which is
-about 200 presentations. From this experience I can confirm the sage advise of
+about 200 presentations. From this experience I can confirm the sage advice of
 the veterans.
 
 In case you don't have the time or inclination to get through this year's
