@@ -1,6 +1,6 @@
--!--
+---
 layout: post
-title: Experience Report: Kinesis Advantage
+title: Experience Report, Kinesis Advantage
 ---
 
 # Experience Report: Kinesis Advantage
@@ -10,10 +10,10 @@ https://kinesis-ergo.com/shop/advantage2/) in the context of a professional
 software engineer. But first, a story:
 
 During my high school years I typed a lot. I spent an inordinate amount of time
-in front of the keyboard writing class papers, playing online video games, IMing
-with friends, or programming. Eventually my wrists and knuckles started to hurt.
-Over time the pain progressed enough to start negatively affecting my day to
-day. Laying off the keyboard was clearly not an option for that particularly
+in front of the keyboard writing class papers, playing online video games, on
+AIM with friends, or programming. Eventually my wrists and knuckles started to
+hurt.  Over time the pain progressed enough to start negatively affecting my day
+to day. Laying off the keyboard was clearly not an option for that particularly
 immature phase of life, so I went looking for pain relief.
 
 ## QWERTY is Hurty
