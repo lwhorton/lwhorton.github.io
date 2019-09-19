@@ -45,6 +45,10 @@ button {
     background: lighten(black, 50%);
     color: white;
     padding: .25rem 1rem;
+
+    &:hover {
+        cursor: pointer;
+    }
 }
 
 h1, h2 {
@@ -71,7 +75,7 @@ blockquote {
 }
 
 footer a {
-    display: block;
+    display: flex;
     padding: .5rem;
 }
 
@@ -92,10 +96,3 @@ ol,li {
         list-style-type: none;
     }
 }
-
-@media (max-width: 30em) {
-    ol a {
-        display: block;
-    }
-}
-
