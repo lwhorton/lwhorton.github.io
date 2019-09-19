@@ -101,15 +101,15 @@ and shape of the keys on those keyboards. The vertical columns and
 thumb-oriented layout are inarguably more ergonomic, but you are going to spend
 a very long time (if not forever) straddling two keyboard layouts. As a remote
 worker, I disconnect my laptop from a primary workstation at least a few times a
-week. During these periods I am working inefficiently. This problem is only
-magnified by my Vim usage, which relies heavily on muscle memory, and would
-likely afflict Emacs users in kind.
+week. During these periods I am working inefficiently on a now-unfamiliar
+layout. This problem is only magnified by my Vim usage, which relies heavily on
+muscle memory, and would likely afflict Emacs users in kind.
 
 ## Conclusion
 
 After an intense 2 week effort to familiarize myself with the new layout, I
 ultimately failed (and lost quite a bit of productive work in the meantime).
-Perhaps an engineer that spends all of their time at a primary workstation maybe
+Perhaps an engineer that spends all of their time at a primary workstation may
 fare better after the initial adjustment period. For now, though, optimizing for
 "least likely to jam" is my unfortunate reality– even if a better alternative
 exists.
