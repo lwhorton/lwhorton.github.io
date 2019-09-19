@@ -40,7 +40,7 @@ QWERTY.
 If you enumerate the pain points of QWERTY, it's a wonder anyone adopted the
 layout at all:
 
-- an enormous amount of awkward finger movements via over-stretching and
+- an enormous amount of awkward finger movements via over stretching and
   "clawing" fingers
 - constantly removing fingers from "home row" to type even the most common words
 - many common letter combinations are typed by a single hand
@@ -51,7 +51,7 @@ of reducing errors when typing in English. His "DVORAK" layout, while not
 explicitly focused on reducing pain, seemed like an excellent solution to my
 problem:
 
-- type as many common words as possible by alternative keystrokes between hands
+- type as many common words as possible by alternating keystrokes between hands
 - keep the most commonly used keys on "home row" to reduce finger movement
 - place the least commonly used keys in the most difficult to reach positions
 - require more typing from the right hand because most people are right handed
@@ -59,11 +59,11 @@ problem:
 
 ## I DID IT!
 
-I started the ardous task of re-learning how to type. It was miserable at first.
-It took about 2 weeks of practice to be able to type without glancing down at my
-fingers. My competitive gaming performance was underwhelming, to say the least,
-and homework drained even more of my free time simply because I stumbled my way
-through the typing.
+I started the arduous task of re-learning how to type. It was miserable at
+first. It took about 2 weeks of practice to be able to type without glancing
+down at my fingers. My competitive gaming performance was underwhelming, to say
+the least, and homework drained even more of my free time simply because I
+stumbled my way through the typing.
 
 It took about a month to return to my previous QWERTY words-per-minute.
 Eventually, as promised, the pain started to subside. As an added bonus I was
