@@ -56,6 +56,18 @@ clojure, and I had to find a way to do that". I'm a little disappointed that he
 essentially had to write in a language he didn't want in order to write in the
 language he did want.
 
+## On the Expressive Power of Programming Languages
+
+[video](https://www.youtube.com/watch?v=43XaZEn2aLc)
+
+This is technically part of a Strangeloop pre-conference event, Papers We Love,
+but easily makes the favorites list. Shriram Krishnamurthi is impressively
+engaging, and manages to boil down some rather difficult mathematics and formal
+proofs into comprehensible, bite-sized chunks. It reminds me a lot of [Beating
+the Averages](http://www.paulgraham.com/avg.html), but if you made the arguments
+from formal mathematical proof instead of opinion. Some languages are provably
+more expressive than others, even if they are all touring complete.
+
 ## Meander: Declarative Explorations at the Limits of FP
 
 [video](https://www.youtube.com/watch?v=9fhnJpCgtUw)
@@ -104,7 +116,3 @@ The entire system was also configurable and extensible enough to be completely
 reconfigured on the fly (float?) should the need arise due to failing hardware.
 The amount of redundancy is mind-boggling, and I wish we had the time (and
 funding) to build every critical system in this manner.
-
-
-[As of 9-15-2019 this list is incomplete, and I will post a few more of my
-favorites in the weeks to come.]
