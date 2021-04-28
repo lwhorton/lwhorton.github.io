@@ -132,7 +132,7 @@ document.foo(1, 2).bar(3) // => [3 1 2]
 Again, parens are exactly equivalent to no parens.
 ```clojure
 (= (. (. js/document (foo 1 2)) (bar 3))
-   (. (. js/document (foo 1 2)) (bar 3))) ;; => true
+   (. (. js/document foo 1 2) bar 3)) ;; => true
 ```
 
 ## Setters
