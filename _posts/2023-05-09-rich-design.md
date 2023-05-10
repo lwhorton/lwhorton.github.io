@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Rich Design, an Example
+title: Rich Design
 ---
 
 # Rich Design
