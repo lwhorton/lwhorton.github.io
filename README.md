@@ -9,10 +9,20 @@ also want some sort of env manager so you aren't globally installing ruby and
 screwing up some other thing; i use [asdf](https://github.com/asdf-vm/asdf-ruby).
 
 you probably need `brew install ruby-build` for any of the asdf ruby versions to
-install and build properly. brew is slow, but it's the best we've got, sorry.
+install and build properly. because ruby and gems are finicky, you also probably
+need to update the bundler after asdf installing the ruby version. ruby,
+bundler, and gem versions are a mess, good luck:
 
-finally, to host the site locally:
+```
+gem install bundler -v '<2.0'
+bundle # installs all the Gemfile info to .bundle/
+```
+
+You also also probably can't use anything ruby `>3` with Jekyll. finally, to
+host the site locally:
 
 `bundle exec jekyll serve`
+
+
 
 

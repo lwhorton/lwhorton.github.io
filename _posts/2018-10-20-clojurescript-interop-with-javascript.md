@@ -1,6 +1,5 @@
 ---
 layout: post
-custom_css: clojurescript-interop-with-javascript
 ---
 
 # Clojurescript interop with javascript
