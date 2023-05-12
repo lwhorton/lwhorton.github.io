@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<time>{{ page.date | date_to_string }}</time>
+{{ content }}
+<button id="scroll-top" type="button">Return To Top</button>
+<script type="text/javascript">
+    document.getElementById("scroll-top").addEventListener('click', function() {
+        document.body.scrollTop = 0
+        document.documentElement.scrollTop = 0
+    })
+</script>
+
