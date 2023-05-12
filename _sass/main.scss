@@ -23,6 +23,15 @@ h1, h2, h3, h4, h5 {
     }
 }
 
+#site-header {
+  font-weight: 100;
+  border-bottom: none;
+
+  & > a {
+    text-decoration: none;
+  }
+}
+
 body {
     margin: 0 1rem;
 }
@@ -33,10 +42,12 @@ a:hover {
 
 nav {
     margin: 0 0 2rem 0;
+    font-size: 1rem;
 
     & ol {
       list-style: none;
       padding-bottom: 0;
+      padding-inline-start: 2.5rem;
       margin: 0;
 
       display: flex;
@@ -55,8 +66,7 @@ nav {
 
       & a {
         //color: #6E6E6E;
-        font-size: 1.25rem;
-        text-decoration: none;
+        font-size: 1rem;
 
         &:hover {
           color: black;
@@ -66,6 +76,12 @@ nav {
         }
       }
     }
+}
+
+article {
+  & > p {
+    margin-left: 2.4rem;
+  }
 }
 
 img {
@@ -115,6 +131,10 @@ footer a {
 #root {
     margin: 3rem auto 2rem auto;
     max-width: 30rem;
+}
+
+#portfolio {
+  margin-left: 2rem;
 }
 
 .date {
