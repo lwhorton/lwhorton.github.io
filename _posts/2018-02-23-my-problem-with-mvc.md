@@ -1,6 +1,7 @@
 ---
 layout: post
 title: My Problem With MVC
+description: MVC is too complicated.
 ---
 
 # My problem with MVC

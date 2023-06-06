@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The Best Talks of Strangeloop 2019
+description: My favorite strangeloop talks.
 ---
 
 # The Best Talks of Strangeloop 2019

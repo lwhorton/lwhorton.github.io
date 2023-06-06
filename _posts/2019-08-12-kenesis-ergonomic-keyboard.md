@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Experience Report, Kinesis Advantage
+description: Kinesis Advantage experience review.
 ---
 
 # Experience Report: Kinesis Advantage

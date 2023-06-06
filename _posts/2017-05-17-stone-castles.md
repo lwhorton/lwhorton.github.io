@@ -1,5 +1,6 @@
 ---
 layout: post
+description: Take the time to build it right.
 ---
 
 # Build stone castles

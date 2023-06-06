@@ -1,5 +1,6 @@
 ---
 layout: post
+description: Clojurescript to javascript interoperability.
 ---
 
 # Clojurescript interop with javascript

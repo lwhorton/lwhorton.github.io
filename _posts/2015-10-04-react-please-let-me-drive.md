@@ -1,6 +1,7 @@
 ---
 layout: post
 title: React, Please Let Me Drive
+description: React doesn't like to give up control.
 ---
 
 # React, please let me drive

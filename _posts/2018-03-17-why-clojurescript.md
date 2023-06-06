@@ -1,5 +1,6 @@
 ---
 layout: post
+description: The advantages of clojurescript.
 ---
 
 # Why Clojurescript?

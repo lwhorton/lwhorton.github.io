@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Rich Design
+description: A design lesson from Rich Hickey.
 ---
 
 # Rich Design

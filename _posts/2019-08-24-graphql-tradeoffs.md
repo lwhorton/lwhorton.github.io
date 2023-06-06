@@ -1,6 +1,7 @@
 ---
 layout: post
 title: GraphQL Tradeoffs
+description: Tradeoffs of graphql.
 ---
 
 # GraphQL Tradeoffs
