@@ -1,0 +1,24 @@
+---
+layout: default
+title: Contact
+---
+
+<form id="contact" action="https://getform.io/f/7ffe5c3d-ebe5-492c-9e08-e4a5ae1068b6" method="POST">
+    <div>
+      <label for="name">Name</label>
+      <input autocomplete="off" type="text" name="name" required>
+    </div>
+    <div>
+      <label for="email">Email</label>
+      <input autocomplete="off" type="email" name="email" required>
+    </div>
+    <div>
+      <label for="message">How can I help?</label>
+      <textarea autocomplete="off" name="message" required placeholder="Hey Luke, I'd love to talk to you about making my business more efficient..."></textarea>
+    </div>
+    <!-- add hidden Honeypot input to prevent spams -->
+    <input type="hidden" name="_gotcha" style="display:none !important">
+    <div>
+      <button type="submit">Send</button>
+    </div>
+</form>
