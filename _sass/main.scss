@@ -135,6 +135,29 @@ footer a {
   margin-left: 2rem;
 }
 
+#contact {
+  display: flex;
+  flex-direction: column;
+
+  div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+
+  label {
+    margin-bottom: .25rem;
+  }
+
+  input, textarea {
+    padding: .25rem;
+  }
+
+  textarea {
+    min-height: 5rem;
+  }
+}
+
 .date {
     font-family: Monospace;
     margin-right: 1rem;
@@ -146,4 +169,8 @@ ol,li {
     &.list-style-none {
         list-style-type: none;
     }
+}
+
+ol {
+  padding-left: 0;
 }
