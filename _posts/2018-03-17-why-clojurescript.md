@@ -236,7 +236,7 @@ inconsistent type comparisons, truthy/falsy inconsistency, null/undefined/NaN
 problems, unintended type conversions, shallow-vs-deep copying, passing values
 versus passing refs, inconsistent equality checking, and huge operator
 precedence tables, to name a few. But just in cast you're a glutton for
-punishment, host [interop]() is seamless via `(js/myFunction args)` or
+punishment, host [interop](/2018/10/20/clojurescript-interop-with-javascript.html) is seamless via `(js/myFunction args)` or
 `(.myFunction js/myModule args)`. Calling Clojurescript from javascript is a
 matter of `^:export my-function`, which exposes to javascript
 `my_namespace.my_function()`.
