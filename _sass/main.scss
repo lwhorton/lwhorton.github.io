@@ -3,10 +3,9 @@ $background: #f9f9f9;
 
 html {
     background-color: $background;
-    font-family: Georgia;
+    font-family: Garamond;
     font-size: 16px;
-    font-color: white;
-    line-height: 1.25rem;
+    line-height: 1.35rem;
     width: 100%;
 }
 
@@ -29,6 +28,10 @@ h1, h2, h3, h4, h5 {
 
   & > a {
     text-decoration: none;
+  }
+
+  & > a:hover {
+    color: inherit;
   }
 }
 
@@ -128,7 +131,7 @@ footer a {
 
 #root {
     margin: 3rem auto 2rem auto;
-    max-width: 30rem;
+    max-width: 32rem;
 }
 
 #portfolio {

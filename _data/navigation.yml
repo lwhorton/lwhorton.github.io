@@ -1,6 +1,8 @@
 - name: essays
-  link: /
+  link: /essays
 - name: portfolio
   link: /portfolio
+- name: reading
+  link: /reading
 - name: contact
   link: /contact
