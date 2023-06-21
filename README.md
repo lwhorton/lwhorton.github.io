@@ -23,6 +23,18 @@ host the site locally:
 
 `bundle exec jekyll serve`
 
+# pre-deploy
 
+we're using github's free jekyll site deployer/builder thing. pushing to `main`
+will build and redeploy a new version of the site. before you do that, you might
+want to spellcheck and html-validate. currently this is run locally because
+setting up CI/CD automation, even with gh-actions, is time consuming.
+
+```
+brew install tidy-html5
+brew install aspell
+
+for f in *.html ; do echo $f ; aspell list < $f | sort | uniq -c ; done
+```
 
 

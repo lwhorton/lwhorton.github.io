@@ -43,7 +43,7 @@ demands of a fully operational castle do not scale linearly, but instead
 experience a rather steep curve.
 
 If we accept that castles are ineffective under a certain size, that we cannot
-build sizeable castles from mud, and that larger castles introduce unavoidable
+build sizable castles from mud, and that larger castles introduce unavoidable
 complexity, we must also accept the associated consequences. Stone is harder to
 form than mud and requires the deft hand of an artisan. Architecting a castle
 requires substantial time and energy. Supporting the complex interactions of

@@ -92,7 +92,7 @@ The first artifact is a **top level ticket**, something one would expect to find
 in any Project Management System. This ticket becomes an anchor for the rest of
 our design work, and receives updates regularly as we refine our understanding
 of the problem at hand. It also proves to the stakeholders that we are, in
-fact, doing work– as evident by the existice of a ticket in a system.  It should
+fact, doing work– as evident by the existence of a ticket in a system.  It should
 look like this:
 
 ```markdown
@@ -175,7 +175,7 @@ before being allowed to teach at a particular school
 # Description
 A promise of our platform is access to credentialed teachers.
 Engineering/implementation aren't able to ingest novel customer onboarding flows
-into the platform "quickly", or provide realible deadlines to customers on
+into the platform "quickly", or provide reliable deadlines to customers on
 when this work will complete. This is causing us to lose sales to districts, and
 is limiting access to our potential substitute pool.
 
@@ -216,7 +216,7 @@ More predictably and quickly ingest customers with novel onboarding flows.
 # Description
 A promise of our platform is access to credentialed teachers.
 Engineering/implementation aren't able to ingest novel customer onboarding flows
-into the platform "quickly", or provide realible deadlines to customers on when
+into the platform "quickly", or provide reliable deadlines to customers on when
 this work will complete. This is causing us to lose sales to districts, and is
 limiting access to our potential substitute pool.
 
@@ -290,7 +290,7 @@ more generalized?
 
 It's in this step that we get to perform all the tasks usually associated with
 design. Draw some diagrams and design plans! You get to use arrows and boxes and
-disk-shaped things in your favorite diagraming tool. Explore the relationships,
+disk-shaped things in your favorite diagramming tool. Explore the relationships,
 flows, architectures, and UIs that satisfy the approach's requirements. Create
 more decision matrices for particular implementation approaches. These can be
 very lightweight, but they document the tradeoffs and help clarify thinking.

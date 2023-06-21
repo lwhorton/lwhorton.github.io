@@ -94,7 +94,7 @@ extreme. I can't wait to try it out, as this is a problem I encounter regularly.
 
 Emery Berger from the CS department at UMass Amherst shared some fascinating
 work on program optimization at the system level. He points out how it is
-essentially impossible to profile code in a straightforward way given todays
+essentially impossible to profile code in a straightforward way given today's
 processors and compilers. Everything from measuring performance to tracing the
 true impact of a code change is ripe with pitfalls and complexities. The
 presentation is example driven, and introduces his research teams' tools
