@@ -157,7 +157,7 @@ of the problem follows:
 ```plaintext
 A promise of our platform is access to credentialed teachers.
 Engineering/implementation aren't able to ingest novel customer onboarding flows
-into the platform "quickly", or provide realible deadlines to customers on when
+into the platform "quickly", or provide reliable deadlines to customers on when
 this work will complete. This is causing us to lose sales to districts, and is
 limiting access to our potential substitute pool.
 ```
@@ -195,7 +195,7 @@ a particular problem.
 
 The next artifact we produce is critically important, **the problem statement**.
 Provide a succinct statement of unmet user objective(s) and cause(s). We're not
-talking about solutions or features, or symptomps and wants– strictly describe
+talking about solutions or features, or symptoms and wants– strictly describe
 the problem at hand that we are going to solve. From this point forward, the
 problem statement should be the single point of focus for every activity. Keep
 it in front of you at all times.
