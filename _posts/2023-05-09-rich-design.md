@@ -133,7 +133,7 @@ something like this:
 We need to contextualize the situation. We can't assume to know what the problem
 is– it's far too early in the design process. Internal and external users are
 complaining. Something is wrong with the system. Some feature might be missing.
-Some documentation might be wrong that's confusing customers. Let's gather up
+Some documentation might be wrong that's confusing customers. Let's gather
 stories, evidence, and conversations to describe our situation in an **evidence
 document**:
 
@@ -283,7 +283,7 @@ artifacts prior to this step, all of which will heavily influence our work:
   with their tradeoffs
 
 Without these artifacts, where would we be in our design process? Do you believe
-me when I say that that every engineer I have ever worked with in my career
+me when I say that every engineer I have ever worked with in my career
 would prefer having this list of artifacts over the original specification? Do
 you expect the outcomes of this design step will be simpler, more robust, and
 more generalized?
@@ -310,7 +310,7 @@ work. We can finally scratch that itch we've been feeling to open the terminal
 and slam down some code.
 
 But first, let's take a moment to appreciate how far we've come. We started with
-a few paragraphs underspecifying some semblance of a feature. Why were we
+a few paragraphs under specifying some semblance of a feature. Why were we
 building this thing? Did we have reason to believe this thing will fit into our
 system? Could we assume the thing actually solves the problem? Could we verify
 that we actually know what the fundamental problem is?

@@ -27,7 +27,7 @@ Clojure, functional programming, and language design.
 Imogen Heap gave a resounding keynote. Her team spent the last 10 years working
 on interactive "music gloves" that enable a performer to engage a synthesizer by
 waving hands and fingers in the air. The glove's sensors provide an incredibly
-rich interface for looping and sampling, and the three dimensional space
+rich interface for looping and sampling, and the three-dimensional space
 provides the canvas on which to perform. It reminds me loosely of a
 [theremin](https://en.wikipedia.org/wiki/Theremin), but with infinitely more
 possibilities. The performance is mesmerizing. This wizard on stage is grabbing
@@ -41,7 +41,7 @@ few wet eyes in the audience during the ovation.
 [video](https://www.youtube.com/watch?v=6hUihVWdgW0)
 
 Dave Yarwood takes us through his journey developing
-[alda](https://github.com/alda-lang), a music programming language and toolset.
+[alda](https://github.com/alda-lang), a music programming language and tool set.
 The market leading GUI-based musical composition software such as Sibelius and
 Pro Tools are pretty limiting and cumbersome. alda was introduced as a means to
 compose music within a workflow that doesn't feel cumbersome or creatively

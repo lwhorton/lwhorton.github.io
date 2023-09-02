@@ -10,7 +10,7 @@ panic. I'm learning that the recovery process is another kind of pain in
 itself– slow, full of regressions, and depressing. There's a mental
 anguish which grows from a pattern of happy pain-free days followed by sad
 pain-full days. Just when you think the back is starting to heal, and the
-inflamation subsides, and the herniation shrinks, you can re-tweak the injury in
+inflammation subsides, and the herniation shrinks, you can re-tweak the injury in
 the most innocent of ways. Rising too quickly after bending over to tie your
 shoe can ruin your day. Reaching a leg into the car just a little too far before
 siting down can result in spending the weekend on the couch. The up-and-down
@@ -18,7 +18,7 @@ nature of the injury toys with my emotional stability.
 
 A physical therapy office asked me to fill out a pain scale. The scale starts at
 0 and ends at 10. Each number is assigned a short description to distinguish the
-levels of pain: "disabling, you can't perform your normal day to day
+levels of pain: "disabling, you can't perform your normal day-to-day
 activities", or "moderate, throbbing that subsides with rest". During my visit I
 found it difficult to fill out this pain questionnaire. The scale and its
 descriptors seemed to skew heavily toward the lower numbers and the higher
@@ -44,8 +44,8 @@ at the lake. The pain is constant, but mild. Remedies like aloe or a cold beer
 in the shade provide relief. Rest is generally not interrupted. While constantly
 uncomfortable, the pain is tolerable.
 
-4 - I aggrevate my shoulder while swimming. Too many laps leads to muscle
-tightening and inflamation around the capsule. The pain is intermittent, but
+4 - I aggravate my shoulder while swimming. Too many laps leads to muscle
+tightening and inflammation around the capsule. The pain is intermittent, but
 it's a noticeable ache. Medication and manual therapy alleviate most of the
 discomfort, and I can rest assured that the pain will subside in a few days at
 most. My daily activities mostly aren't impacted, though I won't swim again for
@@ -60,7 +60,7 @@ however, because I'm still able to get through my normal day largely unhindered.
 6 - I sprain my ankle playing soccer. The injury is painful in the moment, and
 worsens over time as swelling takes over. Medication helps a little, but there's
 a constant level of unavoidable discomfort. The mental taxation starts to take
-it's toll because my daily activites are limited. I'm unable to continue playing
+its toll because my daily activities are limited. I'm unable to continue playing
 sports or get much exercise at all due to the severity of the pain.
 
 7 - I fall off a mountain bike at speed and hit my head, hard. I don't break any
@@ -68,20 +68,20 @@ bones or tear any muscles, but the immediate and future consequences are
 measurable. Most of my body aches for many days following the event, even at
 rest. Pain medication is almost a necessity to enable basic daily activities.
 The pain is quite distracting and makes it difficult to engage in even restful
-activites like reading or television. The mental burden starts to approach the
-level of physical discofort. How long am I going to be stuck immobile on this
+activities like reading or television. The mental burden starts to approach the
+level of physical discomfort. How long am I going to be stuck immobile on this
 couch?  When will I be able to move comfortably again, if at all?
 
 8 - I herniate a disc. The pain is paralyzing in the moment, and barely subsides
 after the immediate injury. It requires a concerning amount of dangerous pain
-medication to take the edge off. Performing even the most mundane activites such
+medication to take the edge off. Performing even the most mundane activities such
 as going to the bathroom, or laying down on the couch is extremely
 uncomfortable. Every movement requires thorough planning and execution, or the
 pain worsens. In addition to the physical pain, there is a substantial amount of
 mental torment. Nothing I do will make the pain go away and I cannot do anything
 without causing pain, so there is nothing to distract from the pain, so I cannot
 think of much else besides the pain, so I go around and around in a mental
-downspiral of pain.
+down spiral of pain.
 
 9 - I am actively dying. To be clear, I have never experienced this level of
 pain, but I imagine the following might fit the category: consider a compound
