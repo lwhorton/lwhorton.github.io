@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5 {
     text-decoration: none;
   }
 
-  & > a:hover {
+  & > a:hover, a:visited {
     color: inherit;
   }
 }
@@ -124,11 +124,6 @@ blockquote {
     }
 }
 
-footer a {
-    display: flex;
-    padding: .5rem;
-}
-
 #root {
     margin: 3rem auto 2rem auto;
     max-width: 32rem;
@@ -174,6 +169,16 @@ ol,li {
     }
 }
 
-ol {
+ol,ul {
   padding-left: 0;
+}
+
+ol#analyze {
+  padding-left: 2rem;
+}
+
+#profile-links {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
 }
