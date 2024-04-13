@@ -157,11 +157,11 @@ blockquote {
 }
 
 ol,li {
-    padding-bottom: .5rem;
-
-    &.list-style-none {
-        list-style-type: none;
-    }
+  padding-bottom: .5rem;
+  &.list-style-none {
+    list-style-type: none;
+    padding: 0;
+  }
 }
 
 ol,ul {
