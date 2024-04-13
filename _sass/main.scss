@@ -7,14 +7,14 @@ html {
 }
 
 body {
+  min-width: 20rem;
+  max-width: 75rem;
   min-height: 100dvh;
   height: 100dvh;
   font-size: 16px;
+  line-height: 1.5;
   font-weight: 300;
   font-family: Garamond;
-  font-size: 16px;
-  line-height: 1.5;
-  max-width: 75rem;
   margin: 0 auto 0 auto;
 }
 
@@ -38,13 +38,12 @@ a:hover {
 nav {
   margin: 0 0 2rem 0;
   font-size: 1rem;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-start;
+
+  display: grid;
+  grid-template-columns: repeat(4, min-content);
+  grid-column-gap: 1.5rem;
 
   a {
-    padding: 0 1rem 0 0;
     font-size: 1rem;
 
     &:hover {
@@ -55,10 +54,10 @@ nav {
     }
   }
 
-  &  a + a {
-    border-left: solid 2px $primary;
-    padding-left: 1rem;
-  }
+  //&  a + a {
+    //border-left: solid 1px $primary;
+    //padding-left: 1rem;
+  //}
 }
 
 article {
@@ -150,8 +149,11 @@ blockquote {
 }
 
 .date {
-    font-family: Monospace;
+    //font-family: Monospace;
+    //font-style: italic;
     margin-right: 1rem;
+  display: inline-block;
+  width: 6rem;
 }
 
 ol,li {
@@ -172,4 +174,5 @@ ol,ul {
   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   row-gap: .5rem;
   column-gap: 1rem;
+  padding: 0;
 }
