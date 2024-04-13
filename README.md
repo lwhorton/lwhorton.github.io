@@ -14,14 +14,15 @@ need to update the bundler after asdf installing the ruby version. ruby,
 bundler, and gem versions are a mess, good luck:
 
 ```
-gem install bundler -v '<2.0'
-bundle # installs all the Gemfile info to .bundle/
+asdf plugin add ruby https://github.com/asdf-vm/asdf-ruby.git
+asdf install
+# if you need <2 for some reason (which wont work on apple silicon): `gem install bundler -v '<2.0'`
+gem install bundler:2.3.26
+gem install jekyll bundler
+bundle install
+# for Ruby >3.0.0, you might need `webrick`: `bundle add webrick`
+bundle exec jekyll serve
 ```
-
-You also also probably can't use anything ruby `>3` with Jekyll. finally, to
-host the site locally:
-
-`bundle exec jekyll serve`
 
 # pre-deploy
 
