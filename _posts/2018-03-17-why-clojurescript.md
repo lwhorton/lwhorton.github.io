@@ -95,36 +95,88 @@ defined.
 
 Clojurescript is **expressive** by design. It's been said that, in a lisp, you don't
 write software; you write the language in which you are going to write your
-software. The same holds true for Clojurescript. Consider the code below; how long
-does it take you to understand the intent of the functions? The implementer's
-approach and design? How much syntax did you have to parse in your working
-memory to figure everything out?
+software. The same holds true for Clojurescript. 
+
+Consider a pretty trivial example meant to demonstrate the power of
+expressivity: a user fills out a form. That user may or may not have unsaved
+changes on the form. We'd like to write a function that asks a user to confirm
+before exiting, but only if they have unsaved changes on the form.
+
+Compare these two examples in clojurescript and javascript. How long it take you
+to understand the intent of the functions and the implementer's approach and
+design? How much syntax did you have to parse in your working memory to figure
+everything out? How much base level of knowledge of the language did you need to
+grok before things made sense? How many different implementations did you work
+through before landing on something that worked well?
 
 ```clojure
-;; when not every value in transient-states is saved, return a string"
-(defn confirm-leave? [db]
-  (when-not (->> (:transient-states db)
-                 (vals)
-                 (every? :saved?))
-    "There is unsaved data, do you want to continue?"))
+;; an example of the form
+{:first-name "..."
+ :last-name "..."
+ :address {:street "..."}
+ :languages #{"en" "de" "fr"}}
+
+(defn confirm-leave? [original-form changed-form]
+    (= original-form changed-form))
 ```
+
 ```javascript
-// assign to an isSaved variable (hm, conventionally that means it's a boolean)
-// the result of getting Object.values from result of mapping a boolean check...
-// oh wait, this is the builder pattern so the operators go the other way.
-// assign to a maybe boolean variable the values of the transientStates, then
-// look at the saved property (wait, wouldn't the boolean convention be isSaved?
-// should I check against non-booleans?) for each. then, if not isSaved... by
-// which i mean if not every saved value in the states is true... by which i
-// mean if one of the saved values in the states is false, return a string.
-function confirmLeave(db) {
-    const isSaved = Object.values(db.transientStates).every(s => s.saved);
-    if (!isSaved) {
-        return 'There is unsaved data, do you want to continue?';
+function confirmLeave(originalForm, changedForm) {
+    // remember that conventionally is* variables are boolean
+    // remember that let allows you to mutate this assignment
+    let isChanged = false
+
+    // use the language's forlet construct to iterate an Object. the forlet
+    // iterates on keys, though, so dont forget to use key-value lookups.
+    for (let key in changedForm) {
+        // remember to ignore inherited/prototyped props 
+        // remember to use the Object's base hasOwnProperty function
+        // ... you could maybe also use originalForm.hasOwnProperty, but only if
+        // it hasn't been mutated 
+        if (Object.hasOwnProperty(originalForm, key)) {
+            // TODO: for now we're assuming all values are scalar so we can check equality 
+            // ... but equality checking non-scalars is a trickier problem
+            // dont forget that strict equality requires the triple form ===,
+            // otherwise you end up with auto-casting
+            if (changedForm[key] !== originalForm[key]) {
+                isChanged = true
+
+                // we could technically exit the loop here because we found at
+                // least 1 non-equal value, but we don't have a way to break the
+                // forlet loop
+            }
+        }
     }
+
+    // dont forget to return the computed value
+    return isChanged
 }
 ```
 
+There are about 7 "things" to hold in your head when writing the javascript. 
+
+- how does variable assignment work, and what are the differences between `var`,
+`let`, and `const`?
+- how do i iterate the form?
+```javascript
+for...in 
+for...of  
+Object.keys(o).forEach(key...) 
+Object.values(o).forEach(val ...) 
+Object.entries(o).forEach([key, val] ...) 
+Object.getOwnPropertyNames(o).forEach(key ...) 
+Reflect.ownKeys(o).forEach(key ...)
+```
+- am i equality checking a scalar, or something else, and how do i do that?
+- remember to reassign a variable which exists in a hoisted scope 
+- how can i exit the loop when i found a matching condition?
+- remember to return the value or we return `undefined`
+
+If the author isn't intimately familiar with the peculiarities of the language,
+a simple equality check between two forms becomes an error-prone mess of
+complexity.
+
+## Simplicity
 **Simplicity** is at the heart of everything, and the community upholds this
 tenant. The fundamental unit of information in Clojurescript is data. There's native
 support for the most common data types: maps `{:house "stark"}` , sets
