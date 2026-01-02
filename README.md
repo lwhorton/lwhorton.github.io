@@ -15,7 +15,9 @@ bundler, and gem versions are a mess, good luck:
 
 ```
 asdf plugin add ruby https://github.com/asdf-vm/asdf-ruby.git
+brew install libyaml # necessary (probably) to build ruby during asdf install
 asdf install
+. $(brew --prefix asdf)/libexec/asdf.sh # make sure to actually use the asdf installs
 # if you need <2 for some reason (which wont work on apple silicon): `gem install bundler -v '<2.0'`
 gem install bundler:2.3.26
 gem install jekyll bundler
